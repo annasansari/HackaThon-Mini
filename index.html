@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+    <nav class="navbar bg-body-tertiary ">
+        <div class="container-fluid set-nav">
+            <a class="navbar-brand">Personal Blogging App</a>
+            <div class="login">
+                <acronym title="login"><i class="fa-solid fa-right-to-bracket set-icon" id="go-login"></i></acronym>
+            </div>
+        </div>
+    </nav>
+
+    <!-- SIGNUP CARD -->
+
+    <div class="card card-set" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">Sign Up</h5>
+            <form class="input-divs">
+                <div>
+                    <input required id="fname" class="input-set" type="text" placeholder="First Name">
+                </div>
+                <div>
+                    <input required id="lname" class="input-set" type="text" placeholder="Last Name">
+                </div>
+                <div>
+                    <input required id="email" class="input-set" type="email" placeholder="Enter your Emali">
+                </div>
+                <div>
+                    <input required id="password" class="input-set" type="password" name=""
+                        placeholder="Enter Your Password">
+                </div>
+                <div>
+                    <input required id="repeat-password" class="input-set" type="password" name=""
+                        placeholder="Repeat Password">
+                </div>
+                <div>
+                    <button id="sign-up-btn" class="Sign-up-btn">Sign Up</button>
+                </div>
+                <div class="set-anchor">
+                    <p>Already have an account? <a class="anchor" href="login.html">Log in</a></p>
+                </div>
+            </form>
+
+        </div>
+    </div>
+
+
+
+    <script type="module" src="app.js"></script>
+    <script src="https://kit.fontawesome.com/e125e2b600.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
